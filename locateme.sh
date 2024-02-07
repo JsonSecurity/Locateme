@@ -47,7 +47,7 @@ YN="$bord[${cent}Y${bord}/${cent}N${bord}]${excr}"
 
 #info
 autor="${bol}$bord [$info${bol}𝙹𝚜𝚘𝚗 𝚂𝚎𝚌𝚞𝚛𝚒𝚝𝚢${bord}]"
-script="${bol}$bord [${info}${bol}WhereLoc$bord -$info$bol beta${bord}]"
+script="${bol}$bord [${info}${bol}Locateme$bord -$info$bol beta${bord}]"
 
 trap ctrl_c INT                                            
 ctrl_c() {
@@ -87,7 +87,7 @@ ngrok_server() {
 	read op
 	if [[ $op == 'y' || $op == 'Y' ]];then
 		$(bash "$HOME/tunNgrok/ngrok.sh" -s http -p 8080 > /dev/null 2>&1 &)
-		echo -e "\n$A Veficanto link...\n"
+		echo -e "\n$A Verificando link...\n"
 		sleep 1
         cont=1
         while true;do
