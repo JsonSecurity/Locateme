@@ -1,7 +1,7 @@
 # Locateme
  This is a system that allows us to know where our device is using GPS coordinates. It's a beta test, it doesn't work in the background.
 
-<img src="image/Locateme.jpg" width="600px" heigth="600px">
+<img src="Images/locateme.jpg" width="600px" heigth="600px">
 
 <h3>PLATFORMS</h3>
 - Termux (Android)
